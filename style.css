@@ -283,7 +283,7 @@ hr{color: brown;}
     padding: 0;}
     .achiv__shadow{opacity: 0;}
     .section4{height: 90rem;
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
     
 }
@@ -356,7 +356,7 @@ hr{color: brown;}
     .article__child{font-size: 0.7rem;}
     .blog__btn{font-size: 0.5rem;
     margin-top: -1rem;}
-    .section5{ height: 34rem;}
+    .section5{ height: 39rem;}
     
     }
      
@@ -367,13 +367,15 @@ hr{color: brown;}
 
 /* section 6 design starts here */
 .section6{background-color: rgb(230, 208, 180);
-    height: 35rem;
+    height: 30rem;
+    margin: 0;
+    padding: 0;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;}
-.section6__title{margin: 4rem;}
+.section6__title{margin: 2rem;}
 .form__div{margin-bottom: 1.5rem;
     display: flex;
     justify-content: center;
