@@ -172,6 +172,11 @@ body{background-color: white;
     box-shadow: 0.1rem 0.1rem 0.1rem 0 rgb(150, 93, 8);
     background-color: orange;}
 
+@media screen and (max-width: 1000px) {
+    .section3{height: 22rem;}
+}
+
+
 @media screen and (max-width: 900px) {
     .section3__div{flex-direction: column;
     width: 50%;
@@ -181,7 +186,8 @@ body{background-color: white;
     align-items: center;
     justify-content: center;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column; 
+    }
     .div__edu{width: 100%;
     padding: 0;
     padding-bottom: 1rem;}
@@ -200,7 +206,8 @@ body{background-color: white;
     align-items: center;
     justify-content: center;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column; 
+    }
     .div__edu{width: 100%;
     padding: 0;
     padding-bottom: 1rem;}
@@ -343,7 +350,18 @@ hr{color: brown;}
     .section5{ height: 40rem;
     padding-top: 2rem;}
      }
+
+@media screen and (max-width: 480px) {
+    .blog__div{height: 9rem; width: 90%;}
+    .article__child{font-size: 0.7rem;}
+    .blog__btn{font-size: 0.5rem;
+    margin-top: -1rem;}
+    .section5{ height: 34rem;}
     
+    }
+     
+
+
 /* section 5 design ends here */
 
 
